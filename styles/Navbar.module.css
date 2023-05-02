@@ -4,9 +4,8 @@
     align-items: center;
     padding: 2rem;
     background-color: aliceblue;
-    position: fixed;
-    top: 0;
-    width: 100%;
+    
+    
   }
   .logo {
     font-size: 1.2rem;
