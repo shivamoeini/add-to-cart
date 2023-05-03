@@ -27,3 +27,11 @@
   .navlink a:hover {
     color: #f9826c;
   }
+.badg{
+    background: rgb(46, 196, 33);
+    padding: 0 8px 0 5px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
