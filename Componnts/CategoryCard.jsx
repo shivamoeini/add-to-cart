@@ -4,8 +4,9 @@ import styles from '../styles/CategoryCard.module.css'
 
 const CategoryCard = ({ image, name }) => {
   return (
+    <>
     <div className={styles.card}>
-      <Image className={styles.image} src={image} height={250} width={400   } />
+      <Image className={styles.image} src={image} height={250} width={400} alt="" />
       <Link href={`/category/${name.toLowerCase()}`}>
         <div className={styles.info}>
           <h3>{name}</h3>
@@ -13,6 +14,7 @@ const CategoryCard = ({ image, name }) => {
         </div>
       </Link>
     </div>
+    </>
   );
 };
 export default CategoryCard;
